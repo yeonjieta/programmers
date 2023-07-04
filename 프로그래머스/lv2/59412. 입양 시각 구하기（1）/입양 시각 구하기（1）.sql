@@ -1,0 +1,10 @@
+-- 코드를 입력하세요
+-- datetime에서 시간 부분만 빼면서 두자리수로 시간대를 나타내려면 hh24를 사용하면된다.
+-- 숫자변환함수 TO_NUMBER을 해줘야 순서대로 나옴
+SELECT 
+    TO_NUMBER(TO_CHAR(DATETIME, 'FMHH24')) AS HOUR, 
+    COUNT(*) AS COUNT
+    FROM ANIMAL_OUTS
+    WHERE TO_NUMBER(TO_CHAR(DATETIME, 'FMHH24')) BETWEEN 9 AND 19 
+    GROUP BY TO_NUMBER(TO_CHAR(DATETIME, 'FMHH24')) 
+    ORDER BY TO_NUMBER(TO_CHAR(DATETIME, 'FMHH24'));
