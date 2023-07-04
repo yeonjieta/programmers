@@ -1,10 +1,10 @@
 -- 코드를 입력하세요
 SELECT
-    p.product_code,
-    sum(p.price * o.sales_amount) as sales
+    P.PRODUCT_CODE,
+    SUM(P.PRICE * O.SALES_AMOUNT) AS SALES
     -- 매출액
-    from product p
-    join offline_sale o on p.product_id = o.product_id
-    group by p.product_code
+    FROM PRODUCT P
+    JOIN OFFLINE_SALE O ON P.PRODUCT_ID= O.PRODUCT_ID
+    GROUP BY P.PRODUCT_CODE
     -- 상품 코드별 
-    order by sales desc, p.product_code asc;
+    ORDER BY SALES DESC, P.PRODUCT_CODE ASC;
