@@ -1,10 +1,10 @@
 # [level unrated] 숫자 비교하기 - 120807 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120807?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120807?language=csharp) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.00 ms
+메모리: 31.3 MB, 시간: 0.14 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 4일 19:57:13
+2023년 11월 3일 21:29:59
 
 ### 문제 설명
 
