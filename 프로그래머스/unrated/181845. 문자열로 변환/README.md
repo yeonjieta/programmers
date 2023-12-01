@@ -1,6 +1,6 @@
 # [level unrated] 문자열로 변환 - 181845 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181845?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181845) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 2일 16:53:27
+2023년 12월 5일 17:49:6
 
 ### 문제 설명
 
